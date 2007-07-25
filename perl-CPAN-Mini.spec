@@ -1,6 +1,6 @@
 %define module      CPAN-Mini
 %define name        perl-%{module}
-%define version     0.55.2
+%define version     0.562
 %define revision    0.552
 %define release     %mkrel 1
 
