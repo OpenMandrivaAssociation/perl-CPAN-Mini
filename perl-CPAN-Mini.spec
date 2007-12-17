@@ -18,7 +18,6 @@ BuildRequires:  perl(URI)
 BuildRequires:  perl(LWP::UserAgent)
 BuildRequires:  perl(Compress::Zlib)
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 CPAN::Mini provides a simple mechanism to build and update a minimal mirror of
