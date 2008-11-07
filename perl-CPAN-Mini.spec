@@ -14,7 +14,7 @@ Source:     http://www.cpan.org/modules/by-module/CPAN/%{module}-%{version}.tar.
 BuildRequires:  perl(URI)
 BuildRequires:  perl(LWP::UserAgent)
 BuildRequires:  perl(Compress::Zlib)
-BuildRequires:  perl(File::Homedir)
+BuildRequires:  perl(File::HomeDir)
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
