@@ -1,9 +1,9 @@
 %define upstream_name    CPAN-Mini
-%define upstream_version 1.111001
+%define upstream_version 1.111002
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Create a minimal mirror of CPAN
 License:    GPL+ or Artistic
