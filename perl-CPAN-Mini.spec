@@ -10,12 +10,11 @@ License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/CPAN/%{upstream_name}-%{upstream_version}.tar.gz
-
 BuildRequires:  perl(Compress::Zlib)
 BuildRequires:  perl(File::HomeDir)
 BuildRequires:  perl(LWP::UserAgent)
+BuildRequires:  perl(Test::More) >= 0.96
 BuildRequires:  perl(URI)
-
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 
