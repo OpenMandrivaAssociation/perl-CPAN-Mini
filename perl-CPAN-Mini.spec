@@ -13,7 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/CPAN/%{upstream_name}-%{upstre
 BuildRequires:  perl(Compress::Zlib)
 BuildRequires:  perl(File::HomeDir)
 BuildRequires:  perl(LWP::UserAgent)
-BuildRequires:  perl(Test::More) >= 0.96
+BuildRequires:  perl(Test::More) >= 0.960.0
 BuildRequires:  perl(URI)
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
