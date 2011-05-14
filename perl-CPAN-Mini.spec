@@ -1,5 +1,5 @@
 %define upstream_name    CPAN-Mini
-%define upstream_version 1.111006
+%define upstream_version 1.111007
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
