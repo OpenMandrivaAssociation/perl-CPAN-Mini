@@ -1,15 +1,15 @@
 %define upstream_name    CPAN-Mini
-%define upstream_version 1.111007
+%define upstream_version 1.111013
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Create a minimal mirror of CPAN
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/CPAN/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/CPAN/CPAN-Mini-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Compress::Zlib)
@@ -191,4 +191,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Tue Dec 07 2004 Rafael Garcia-Suarez <rgarciasuarez@mandrakesoft.com> 0.24-1mdk
 - Initial MDK release.
+
 

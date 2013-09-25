@@ -1,2 +1,4 @@
+removed_sources:
+  CPAN-Mini-1.111007.tar.gz: cdfb9c860312bb349f0f5a2da585fddae581969d
 sources:
-  "CPAN-Mini-1.111007.tar.gz": cdfb9c860312bb349f0f5a2da585fddae581969d
+  CPAN-Mini-1.111013.tar.gz: 7f69d952d3d226f13cd5717716b2e89f590ca902
