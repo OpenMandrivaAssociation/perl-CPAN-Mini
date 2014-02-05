@@ -1,5 +1,5 @@
 %define upstream_name    CPAN-Mini
-%define upstream_version 1.111013
+%define upstream_version 1.111015
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -191,5 +191,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Tue Dec 07 2004 Rafael Garcia-Suarez <rgarciasuarez@mandrakesoft.com> 0.24-1mdk
 - Initial MDK release.
+
 
 
