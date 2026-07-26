@@ -1,15 +1,13 @@
 %define upstream_name    CPAN-Mini
-%define upstream_version 1.111017
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	1.111017
+Release:	2
 
 Summary:	Create a minimal mirror of CPAN
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/rjbs/CPAN-Mini
-Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/CPAN-Mini-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/CPAN-Mini-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -26,7 +24,7 @@ the CPAN on your local disk. It comes with a small utility, minicpan(1), to
 create and update such mirrors.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -88,9 +86,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sat Feb 13 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 0.576.0-3mdv2010.1
 + Revision: 505417
-- rebuild using %%perl_convert_version
-
-* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 0.576-2mdv2010.0
+- rebuild using %1.111017 Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 0.576-2mdv2010.0
 + Revision: 440543
 - rebuild
 
